@@ -22,15 +22,21 @@ m tall.
 
 GOOD LUCK 😀
 */
+//// TEST DATA 1 //////
+// const markMass = 78;
+// const markHeight = 1.69;
+// const johnMass = 92;
+// const johnHeight = 1.95;
 
-const markMassInKilograms = 78;
-const markHeightInMeters = 1.69;
+//// TEST DATA 2 //////
+const markMass = 95;
+const markHeight = 1.88;
+const johnMass = 85;
+const johnHeight = 1.76;
 
-const johnMassInKilograms = 78;
-const johnHeightInMeters = 1.69;
+let markBmi = markMass / markHeight ** 2;
+let johnBmi = johnMass / (johnHeight * johnHeight);
 
-let markBmi = markMassInKilograms / (markHeightInMeters * markHeightInMeters);
-let johnBmi = johnMassInKilograms / (johnHeightInMeters * johnHeightInMeters);
+const markHigherBMI = markBmi > johnBmi;
 
-console.log(markBmi, johnBmi);
-
+console.log(markBmi, johnBmi, markHigherBMI);
