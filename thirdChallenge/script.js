@@ -60,11 +60,11 @@ const averageKoalasScore = (koalasScoreOne + koalasScoreTwo + koalasScoreThird) 
 console.log(`${Math.round(averageKoalasScore)} are the Koalas average points`);
 
 if (averageDolphinsScore > averageKoalasScore && averageDolphinsScore >= 100) {
-    console.log('Dolphins are the Winners!!!!');
+    console.log('Dolphins are the Winners!!!! 🏆');
 } else if (averageDolphinsScore === averageKoalasScore && averageDolphinsScore >= 100 && averageKoalasScore >= 100) {
     console.log('There is a draw in this match');
 } else if (averageKoalasScore > averageDolphinsScore && averageKoalasScore >= 100) {
-    console.log('Koalas are the Winners!!!');
+    console.log('Koalas are the Winners!!! 🏆');
 } else {
-    console.log('There is not a Winner!!!');
+    console.log('There is not a Winner!!! 😥');
 }
